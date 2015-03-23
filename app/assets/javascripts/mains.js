@@ -324,7 +324,7 @@ xhr.addEventListener('load', function(e) {
    		comment_container.appendChild(comment_div);
 
    		var user_image = document.createElement('img');
-   		user_image.src = "/assets/users.jpg";
+   		user_image.src = "/users.jpg";
    		comment_div.appendChild(user_image);
 
    		var content_div = document.createElement('div');
